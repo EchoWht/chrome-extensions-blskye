@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Blskye",
+	"description": "Link Collection Tool",
+	"version": "1.0.0",
+	"options_page": "html/options.html",
+	"permissions": [
+		"tabs",
+		"contextMenus",
+		"http://blskye.com/index.php/Api/"
+	],
+	"icons": {
+		"16": "assets/images/icon16.png",
+		"48": "assets/images/icon48.png",
+		"128": "assets/images/icon128.png"
+	},
+	"browser_action": {
+		"default_title": "保存到Blskye",
+		"default_popup": "popup.html"
+	}
+}
