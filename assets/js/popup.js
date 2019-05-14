@@ -7,3 +7,5 @@ chrome.tabs.getSelected(function (tabs) {
     favIconUrl.src=tabs.favIconUrl
     url.innerText=tabs.url
 });
+
+
